@@ -33,3 +33,6 @@ __pycache__/
 
 # Logs
 logs/
+
+# conda
+condaenv.*
