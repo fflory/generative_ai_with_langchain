@@ -4,6 +4,10 @@ pdf is at https://1drv.ms/b/s!AhUtYe0GtfSGg59LMLYpGrzohfFVgg?e=BPjeYQ
 
 
     conda env create --file langchain_ai.yaml
+    conda activate langchain_ai_learn
+    conda env update --file langchain_ai_learn.yaml --prune
+
+    conda env create --file langchain_ai.yaml
     conda activate langchain_ai
 
 https://github.com/benman1/generative_ai_with_langchain
@@ -20,3 +24,7 @@ my config.py file to get secret keys
 
     import os
     OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
+
+# Getting started 
+
+see the [link to notebooks/models.ipynb](notebooks/models.ipynb)
